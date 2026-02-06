@@ -33,4 +33,5 @@ user_name = input("What is your name?")
 # Print hello to the user
 print(f"Hello {user_name}")
 # Print hello to the user and ask them how old they are
-print(input(f"Hi {user_name}, how old are you?"))
+user_age = input(f"Hi {user_name}, how old are you?")
+print(f"Hi {user_name}, you are {user_age} years old!")
